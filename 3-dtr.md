@@ -309,7 +309,7 @@ Although we removed the image from the UI, on disk it still persists. To remove 
 
 **STEP 5:** Navigate to **Setting** tab and click on **Garbage Collection**.
 
-**STEP 6:** Plug in `0 0 0 * * *` and click **Save**. Garbage collection now will run everyday at midnight.
+**STEP 6:** Plug in `0 * * *` and click **Save**. Garbage collection now will run everyday at midnight.
 
 Now that the garbage collection was set up, the next time it runs it will delete **barca:lona** image from disk.
 
